@@ -15,7 +15,7 @@ namespace ps4RemoteSender
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ps4RemoteSender());
+            Application.Run(PS4RemoteSender.getinstance());
         }
     }
 }
